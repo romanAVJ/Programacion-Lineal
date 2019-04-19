@@ -1,0 +1,10 @@
+%Creando matrices etc 
+
+m = round(exp(log(10)*rand()));
+n = round(exp(log(10)*rand()));
+sigma = 10;
+A = round(sigma*(randn(m,n)));
+b = round(sigma*abs(randn(m,1)));
+c = round(sigma*randn(1,n));
+
+%%Poner una matriz de ejemplo mas bonita 
